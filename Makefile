@@ -1,5 +1,5 @@
 PKG_NAME := gmime
-URL := http://ftp.gnome.org/pub/gnome/sources/gmime/3.0/gmime-3.0.1.tar.xz
+URL := https://download.gnome.org/sources/gmime/3.0/gmime-3.0.2.tar.xz
 
 
 include ../common/Makefile.common
