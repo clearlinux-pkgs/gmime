@@ -5,6 +5,4 @@ Configure miss: winsock2.h
 Configure miss: db2html
 Configure miss: docbook2html
 Configure miss: getaddrinfo in -lsocket
-Configure miss: gpgme-config
-Configure miss: GPGME pthread - version >= 1.2.0
 Configure miss: vapigen
