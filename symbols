@@ -572,6 +572,7 @@ libgmime-3.0.so.0:g_mime_utils_header_encode_phrase
 libgmime-3.0.so.0:g_mime_utils_header_encode_text
 libgmime-3.0.so.0:g_mime_utils_header_format_date
 libgmime-3.0.so.0:g_mime_utils_header_printf
+libgmime-3.0.so.0:g_mime_utils_header_unfold
 libgmime-3.0.so.0:g_mime_utils_quote_string
 libgmime-3.0.so.0:g_mime_utils_structured_header_fold
 libgmime-3.0.so.0:g_mime_utils_text_is_8bit
