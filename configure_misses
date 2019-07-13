@@ -4,4 +4,3 @@ Configure miss: winsock2.h presence
 Configure miss: db2html
 Configure miss: docbook2html
 Configure miss: getaddrinfo in -lsocket
-Configure miss: vapigen
