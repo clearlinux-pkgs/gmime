@@ -4,7 +4,7 @@
 #
 Name     : gmime
 Version  : 3.2.7
-Release  : 17
+Release  : 18
 URL      : https://download.gnome.org/sources/gmime/3.2/gmime-3.2.7.tar.xz
 Source0  : https://download.gnome.org/sources/gmime/3.2/gmime-3.2.7.tar.xz
 Summary  : MIME library
@@ -85,11 +85,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1584969272
+export SOURCE_DATE_EPOCH=1586229309
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
-export FCFLAGS="$CFLAGS -fno-lto "
-export FFLAGS="$CFLAGS -fno-lto "
+export FCFLAGS="$FFLAGS -fno-lto "
+export FFLAGS="$FFLAGS -fno-lto "
 export CXXFLAGS="$CXXFLAGS -fno-lto "
 %configure --disable-static
 make  %{?_smp_mflags}
@@ -102,7 +102,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1584969272
+export SOURCE_DATE_EPOCH=1586229309
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/gmime
 cp %{_builddir}/gmime-3.2.7/COPYING %{buildroot}/usr/share/package-licenses/gmime/caeb68c46fa36651acf592771d09de7937926bb3
