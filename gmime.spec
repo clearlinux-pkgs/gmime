@@ -4,7 +4,7 @@
 #
 Name     : gmime
 Version  : 3.2.7
-Release  : 19
+Release  : 20
 URL      : https://download.gnome.org/sources/gmime/3.2/gmime-3.2.7.tar.xz
 Source0  : https://download.gnome.org/sources/gmime/3.2/gmime-3.2.7.tar.xz
 Summary  : MIME library
